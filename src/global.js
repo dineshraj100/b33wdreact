@@ -1,0 +1,1 @@
+export  let API= "https://624a7f85852fe6ebf887cb09.mockapi.io/movies" 

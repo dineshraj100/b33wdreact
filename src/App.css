@@ -1,6 +1,5 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
 }
 .movie-list{
   display: grid;
@@ -41,6 +40,31 @@ span{
   color: red;
 }
 .title{
-  background-color: rgb(28, 147, 237);
+
   color: aliceblue;
+}
+.Addmovies{
+  display: flex;
+  flex-direction: column;
+}
+.inputsec{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: center;
+}
+input{
+  width: 500px;
+}
+#addmoviename{
+  text-align: center;
+  background-color: rgb(28, 147, 237);
+}
+.not-found{
+  width: 100%;
+  object-fit: contain;
+  max-height: 700px;
+}
+.movie-detail-container{
+  max-width: 900px;
 }
